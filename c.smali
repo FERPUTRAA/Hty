@@ -1,24 +1,411 @@
-.class public final synthetic Landroid/support/v4/media/session/c;
+.class public final Landroidx/activity/contextaware/c;
 .super Ljava/lang/Object;
 
 
+# annotations
+.annotation system Ldalvik/annotation/SourceDebugExtension;
+    value = "SMAP\nContextAware.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ContextAware.kt\nandroidx/activity/contextaware/ContextAwareKt\n+ 2 CancellableContinuation.kt\nkotlinx/coroutines/CancellableContinuationKt\n*L\n1#1,93:1\n314#2,11:94\n*S KotlinDebug\n*F\n+ 1 ContextAware.kt\nandroidx/activity/contextaware/ContextAwareKt\n*L\n81#1:94,11\n*E\n"
+.end annotation
+
+.annotation build Lkotlin/jvm/internal/r1;
+    value = {
+        "SMAP\nContextAware.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ContextAware.kt\nandroidx/activity/contextaware/ContextAwareKt\n+ 2 CancellableContinuation.kt\nkotlinx/coroutines/CancellableContinuationKt\n*L\n1#1,93:1\n314#2,11:94\n*S KotlinDebug\n*F\n+ 1 ContextAware.kt\nandroidx/activity/contextaware/ContextAwareKt\n*L\n81#1:94,11\n*E\n"
+    }
+.end annotation
+
+
 # direct methods
-.method public static bridge synthetic a(Landroid/media/session/MediaController$TransportControls;Ljava/lang/String;Landroid/os/Bundle;)V
-    .locals 2
+.method public static final a(Landroidx/activity/contextaware/a;Li8/l;Lkotlin/coroutines/d;)Ljava/lang/Object;
+    .locals 5
+    .param p0    # Landroidx/activity/contextaware/a;
+        .annotation build Lia/d;
+        .end annotation
+    .end param
+    .param p1    # Li8/l;
+        .annotation build Lia/d;
+        .end annotation
+    .end param
+    .param p2    # Lkotlin/coroutines/d;
+        .annotation build Lia/d;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<R:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Landroidx/activity/contextaware/a;",
+            "Li8/l<",
+            "Landroid/content/Context;",
+            "TR;>;",
+            "Lkotlin/coroutines/d<",
+            "TR;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
 
-    const-string v1, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+    .annotation build Lia/e;
+    .end annotation
 
-    const-string v0, " ~ssti~oyb@o ~@ ol @~i~o1@@@@~@~v t@@@S@u ~@~o@c/~ @4-flb~~ r~@ a. ~~  o~@@~d @ / ~~~ Mn@m fK~~i"
+    const/4 v4, 0x7
 
-    const-string v0, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+    const/4 v3, 0x5
 
-    invoke-virtual {p0, p1, p2}, Landroid/media/session/MediaController$TransportControls;->prepareFromMediaId(Ljava/lang/String;Landroid/os/Bundle;)V
+    const/4 v4, 0x6
 
-    const/4 v1, 0x2
+    invoke-interface {p0}, Landroidx/activity/contextaware/a;->peekAvailableContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    const/4 v4, 0x0
+
+    const/4 v3, 0x3
+
+    const/4 v4, 0x6
+
+    if-eqz v0, :cond_0
+
+    const/4 v4, 0x4
+
+    invoke-interface {p1, v0}, Li8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    const/4 v4, 0x5
+
+    const/4 v3, 0x4
+
+    return-object p0
+
+    :cond_0
+    const/4 v4, 0x0
+
+    const/4 v3, 0x4
+
+    const/4 v4, 0x2
+
+    new-instance v0, Lkotlinx/coroutines/r;
+
+    const/4 v4, 0x0
+
+    invoke-static {p2}, Lkotlin/coroutines/intrinsics/b;->e(Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+
+    move-result-object v1
+
+    const/4 v4, 0x7
+
+    const/4 v3, 0x6
+
+    const/4 v4, 0x5
+
+    const/4 v2, 0x1
+
+    const/4 v4, 0x2
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x7
+
+    invoke-direct {v0, v1, v2}, Lkotlinx/coroutines/r;-><init>(Lkotlin/coroutines/d;I)V
+
+    const/4 v4, 0x4
+
+    const/4 v3, 0x7
+
+    const/4 v4, 0x1
+
+    invoke-virtual {v0}, Lkotlinx/coroutines/r;->R()V
+
+    const/4 v3, 0x1
+
+    move v4, v3
+
+    new-instance v1, Landroidx/activity/contextaware/c$b;
+
+    const/4 v4, 0x0
+
+    const/4 v3, 0x1
+
+    const/4 v4, 0x6
+
+    invoke-direct {v1, v0, p1}, Landroidx/activity/contextaware/c$b;-><init>(Lkotlinx/coroutines/q;Li8/l;)V
+
+    const/4 v4, 0x6
+
+    const/4 v3, 0x2
+
+    const/4 v4, 0x4
+
+    invoke-interface {p0, v1}, Landroidx/activity/contextaware/a;->addOnContextAvailableListener(Landroidx/activity/contextaware/d;)V
+
+    const/4 v4, 0x5
+
+    const/4 v3, 0x5
+
+    const/4 v4, 0x0
+
+    new-instance p1, Landroidx/activity/contextaware/c$a;
+
+    const/4 v4, 0x3
+
+    invoke-direct {p1, p0, v1}, Landroidx/activity/contextaware/c$a;-><init>(Landroidx/activity/contextaware/a;Landroidx/activity/contextaware/c$b;)V
+
+    const/4 v4, 0x2
+
+    const/4 v3, 0x6
+
+    const/4 v4, 0x2
+
+    invoke-interface {v0, p1}, Lkotlinx/coroutines/q;->s(Li8/l;)V
+
+    const/4 v4, 0x5
+
+    const/4 v3, 0x6
+
+    const/4 v4, 0x3
+
+    invoke-virtual {v0}, Lkotlinx/coroutines/r;->w()Ljava/lang/Object;
+
+    move-result-object p0
+
+    const/4 v4, 0x0
+
+    const/4 v3, 0x1
+
+    const/4 v4, 0x6
+
+    invoke-static {}, Lkotlin/coroutines/intrinsics/b;->l()Ljava/lang/Object;
+
+    move-result-object p1
+
+    const/4 v4, 0x0
+
+    const/4 v3, 0x7
+
+    const/4 v4, 0x5
+
+    if-ne p0, p1, :cond_1
+
+    const/4 v4, 0x0
+
+    const/4 v3, 0x6
+
+    const/4 v4, 0x0
+
+    invoke-static {p2}, Lkotlin/coroutines/jvm/internal/h;->c(Lkotlin/coroutines/d;)V
+
+    :cond_1
+    const/4 v4, 0x2
+
+    const/4 v3, 0x6
+
+    const/4 v4, 0x2
+
+    return-object p0
+.end method
+
+.method private static final b(Landroidx/activity/contextaware/a;Li8/l;Lkotlin/coroutines/d;)Ljava/lang/Object;
+    .locals 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<R:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Landroidx/activity/contextaware/a;",
+            "Li8/l<",
+            "Landroid/content/Context;",
+            "TR;>;",
+            "Lkotlin/coroutines/d<",
+            "TR;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    const/4 v4, 0x3
+
+    invoke-interface {p0}, Landroidx/activity/contextaware/a;->peekAvailableContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    const/4 v4, 0x4
+
+    const/4 v3, 0x4
+
+    if-eqz v0, :cond_0
+
+    const/4 v4, 0x1
+
+    const/4 v3, 0x7
+
+    const/4 v4, 0x6
+
+    invoke-interface {p1, v0}, Li8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    const/4 v4, 0x2
+
+    const/4 v3, 0x1
+
+    const/4 v4, 0x6
+
+    return-object p0
+
+    :cond_0
+    const/4 v4, 0x5
+
+    const/4 v3, 0x2
+
+    const/4 v4, 0x4
 
     const/4 v0, 0x0
 
-    const/4 v1, 0x0
+    const/4 v4, 0x1
 
-    return-void
+    const/4 v3, 0x1
+
+    const/4 v4, 0x6
+
+    invoke-static {v0}, Lkotlin/jvm/internal/i0;->e(I)V
+
+    const/4 v4, 0x1
+
+    const/4 v3, 0x5
+
+    const/4 v4, 0x7
+
+    new-instance v0, Lkotlinx/coroutines/r;
+
+    const/4 v4, 0x1
+
+    const/4 v3, 0x2
+
+    const/4 v4, 0x3
+
+    invoke-static {p2}, Lkotlin/coroutines/intrinsics/b;->e(Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+
+    move-result-object v1
+
+    const/4 v4, 0x1
+
+    const/4 v3, 0x7
+
+    const/4 v4, 0x4
+
+    const/4 v2, 0x1
+
+    const/4 v4, 0x4
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    invoke-direct {v0, v1, v2}, Lkotlinx/coroutines/r;-><init>(Lkotlin/coroutines/d;I)V
+
+    const/4 v4, 0x1
+
+    const/4 v3, 0x7
+
+    const/4 v4, 0x6
+
+    invoke-virtual {v0}, Lkotlinx/coroutines/r;->R()V
+
+    const/4 v4, 0x5
+
+    const/4 v3, 0x4
+
+    const/4 v4, 0x5
+
+    new-instance v1, Landroidx/activity/contextaware/c$b;
+
+    const/4 v3, 0x0
+
+    move v4, v3
+
+    invoke-direct {v1, v0, p1}, Landroidx/activity/contextaware/c$b;-><init>(Lkotlinx/coroutines/q;Li8/l;)V
+
+    const/4 v3, 0x3
+
+    shr-int/2addr v4, v3
+
+    invoke-interface {p0, v1}, Landroidx/activity/contextaware/a;->addOnContextAvailableListener(Landroidx/activity/contextaware/d;)V
+
+    const/4 v4, 0x3
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x4
+
+    new-instance p1, Landroidx/activity/contextaware/c$a;
+
+    const/4 v4, 0x2
+
+    const/4 v3, 0x3
+
+    const/4 v4, 0x1
+
+    invoke-direct {p1, p0, v1}, Landroidx/activity/contextaware/c$a;-><init>(Landroidx/activity/contextaware/a;Landroidx/activity/contextaware/c$b;)V
+
+    const/4 v3, 0x1
+
+    move v4, v3
+
+    invoke-interface {v0, p1}, Lkotlinx/coroutines/q;->s(Li8/l;)V
+
+    const/4 v4, 0x1
+
+    const/4 v3, 0x3
+
+    const/4 v4, 0x0
+
+    sget-object p0, Lkotlin/s2;->a:Lkotlin/s2;
+
+    const/4 v4, 0x0
+
+    const/4 v3, 0x5
+
+    invoke-virtual {v0}, Lkotlinx/coroutines/r;->w()Ljava/lang/Object;
+
+    move-result-object p0
+
+    const/4 v4, 0x6
+
+    const/4 v3, 0x7
+
+    const/4 v4, 0x1
+
+    invoke-static {}, Lkotlin/coroutines/intrinsics/b;->l()Ljava/lang/Object;
+
+    move-result-object p1
+
+    const/4 v4, 0x4
+
+    const/4 v3, 0x6
+
+    const/4 v4, 0x5
+
+    if-ne p0, p1, :cond_1
+
+    const/4 v4, 0x6
+
+    const/4 v3, 0x4
+
+    invoke-static {p2}, Lkotlin/coroutines/jvm/internal/h;->c(Lkotlin/coroutines/d;)V
+
+    :cond_1
+    const/4 v4, 0x1
+
+    const/4 v3, 0x2
+
+    const/4 v4, 0x2
+
+    invoke-static {v2}, Lkotlin/jvm/internal/i0;->e(I)V
+
+    const/4 v4, 0x2
+
+    const/4 v3, 0x1
+
+    const/4 v4, 0x2
+
+    return-object p0
 .end method
