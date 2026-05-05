@@ -1,228 +1,523 @@
-.class public final Landroidx/activity/contextaware/c$b;
+.class public final Landroidx/appcompat/widget/c$b;
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Landroidx/activity/contextaware/d;
+.implements Ljava/lang/Comparable;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/contextaware/c;->a(Landroidx/activity/contextaware/a;Li8/l;Lkotlin/coroutines/d;)Ljava/lang/Object;
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/appcompat/widget/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x19
-    name = null
+    name = "b"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nContextAware.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ContextAware.kt\nandroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,93:1\n1#2:94\n*E\n"
-.end annotation
-
-.annotation build Lkotlin/jvm/internal/r1;
+.annotation system Ldalvik/annotation/Signature;
     value = {
-        "SMAP\nContextAware.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ContextAware.kt\nandroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,93:1\n1#2:94\n*E\n"
+        "Ljava/lang/Object;",
+        "Ljava/lang/Comparable<",
+        "Landroidx/appcompat/widget/c$b;",
+        ">;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic a:Lkotlinx/coroutines/q;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lkotlinx/coroutines/q<",
-            "TR;>;"
-        }
-    .end annotation
-.end field
+.field public final a:Landroid/content/pm/ResolveInfo;
 
-.field final synthetic b:Li8/l;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Li8/l<",
-            "Landroid/content/Context;",
-            "TR;>;"
-        }
-    .end annotation
-.end field
+.field public b:F
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/q;Li8/l;)V
+.method public constructor <init>(Landroid/content/pm/ResolveInfo;)V
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lkotlinx/coroutines/q<",
-            "TR;>;",
-            "Li8/l<",
-            "Landroid/content/Context;",
-            "TR;>;)V"
-        }
-    .end annotation
 
-    const/4 v1, 0x3
-
-    const/4 v0, 0x5
-
-    const/4 v1, 0x1
-
-    iput-object p1, p0, Landroidx/activity/contextaware/c$b;->a:Lkotlinx/coroutines/q;
-
-    const/4 v1, 0x1
-
-    const/4 v0, 0x5
-
-    const/4 v1, 0x4
-
-    iput-object p2, p0, Landroidx/activity/contextaware/c$b;->b:Li8/l;
-
-    const/4 v1, 0x5
-
-    const/4 v0, 0x5
-
-    const/4 v1, 0x6
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    const/4 v1, 0x5
+    const/4 v1, 0x0
 
     const/4 v0, 0x7
 
-    const/4 v1, 0x0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v1, 0x1
+
+    const/4 v0, 0x4
+
+    const/4 v1, 0x1
+
+    iput-object p1, p0, Landroidx/appcompat/widget/c$b;->a:Landroid/content/pm/ResolveInfo;
+
+    const/4 v1, 0x3
+
+    const/4 v0, 0x2
+
+    const/4 v1, 0x3
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a(Landroid/content/Context;)V
-    .locals 5
-    .param p1    # Landroid/content/Context;
-        .annotation build Lia/d;
-        .end annotation
-    .end param
+.method public a(Landroidx/appcompat/widget/c$b;)I
+    .locals 3
 
-    const-string v4, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+    const-string v2, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
 
-    const-string v3, "/~s ~m.~s @bfS ~t14@~d~~ bM@@t@  ~ K@/c~~oo@oy i ~@ @~@~lo-@@n au~i~~v@~r@o@~ ~@ i o~f @l@b~ @ @"
+    const-string v1, " iss4~l- / tot~o@@ b@S@@ob  ~@a n@oo@ ~rc @~i@~~v/~ @  ~1@~ ~~@~@@m@@~@ @.~~f@M~~~ylKi  bfdu~~~ "
 
-    const-string v3, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+    const-string v1, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
 
-    const/4 v4, 0x5
+    const/4 v2, 0x5
 
-    const-string/jumbo v0, "tesnxto"
+    iget p1, p1, Landroidx/appcompat/widget/c$b;->b:F
 
-    const/4 v4, 0x6
+    const/4 v2, 0x0
 
-    const-string v0, "ectmotx"
+    const/4 v1, 0x4
 
-    const-string v0, "context"
+    const/4 v2, 0x5
 
-    const/4 v4, 0x7
+    invoke-static {p1}, Ljava/lang/Float;->floatToIntBits(F)I
 
-    const/4 v3, 0x5
+    move-result p1
+
+    const/4 v2, 0x0
+
+    const/4 v1, 0x5
+
+    const/4 v2, 0x4
+
+    iget v0, p0, Landroidx/appcompat/widget/c$b;->b:F
+
+    const/4 v2, 0x0
+
+    invoke-static {v0}, Ljava/lang/Float;->floatToIntBits(F)I
+
+    move-result v0
+
+    const/4 v2, 0x7
+
+    const/4 v1, 0x6
+
+    const/4 v2, 0x1
+
+    sub-int/2addr p1, v0
+
+    const/4 v2, 0x5
+
+    const/4 v1, 0x4
+
+    const/4 v2, 0x3
+
+    return p1
+.end method
+
+.method public bridge synthetic compareTo(Ljava/lang/Object;)I
+    .locals 2
+
+    const/4 v1, 0x7
+
+    const/4 v0, 0x6
+
+    const/4 v1, 0x0
+
+    check-cast p1, Landroidx/appcompat/widget/c$b;
+
+    const/4 v1, 0x7
+
+    const/4 v0, 0x3
+
+    const/4 v1, 0x0
+
+    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/c$b;->a(Landroidx/appcompat/widget/c$b;)I
+
+    move-result p1
+
+    const/4 v1, 0x7
+
+    const/4 v0, 0x6
+
+    const/4 v1, 0x7
+
+    return p1
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 6
+
+    const/4 v5, 0x4
 
     const/4 v4, 0x3
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/l0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    const/4 v5, 0x3
 
-    const/4 v4, 0x2
+    const/4 v0, 0x1
 
-    const/4 v3, 0x4
-
-    const/4 v4, 0x5
-
-    iget-object v0, p0, Landroidx/activity/contextaware/c$b;->a:Lkotlinx/coroutines/q;
-
-    const/4 v4, 0x5
-
-    iget-object v1, p0, Landroidx/activity/contextaware/c$b;->b:Li8/l;
-
-    :try_start_0
-    const/4 v4, 0x3
-
-    const/4 v3, 0x3
-
-    const/4 v4, 0x3
-
-    sget-object v2, Lkotlin/d1;->a:Lkotlin/d1$a;
-
-    const/4 v4, 0x3
-
-    const/4 v3, 0x2
-
-    const/4 v4, 0x3
-
-    invoke-interface {v1, p1}, Li8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    const/4 v4, 0x5
-
-    const/4 v3, 0x5
-
-    const/4 v4, 0x3
-
-    invoke-static {p1}, Lkotlin/d1;->b(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    const/4 v4, 0x2
-
-    const/4 v3, 0x2
-
-    const/4 v4, 0x3
-
-    goto :goto_0
-
-    :catchall_0
-    move-exception p1
-
-    const/4 v4, 0x6
-
-    const/4 v3, 0x7
+    const/4 v5, 0x6
 
     const/4 v4, 0x0
 
-    sget-object v1, Lkotlin/d1;->a:Lkotlin/d1$a;
+    const/4 v5, 0x3
 
-    const/4 v4, 0x7
+    if-ne p0, p1, :cond_0
 
-    const/4 v3, 0x3
+    const/4 v5, 0x1
+
+    const/4 v4, 0x5
+
+    const/4 v5, 0x2
+
+    return v0
+
+    :cond_0
+    const/4 v5, 0x2
 
     const/4 v4, 0x1
 
-    invoke-static {p1}, Lkotlin/e1;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
+    const/4 v5, 0x0
 
-    move-result-object p1
+    const/4 v1, 0x0
+
+    const/4 v5, 0x1
 
     const/4 v4, 0x7
 
-    const/4 v3, 0x6
+    const/4 v5, 0x3
 
-    const/4 v4, 0x4
+    if-nez p1, :cond_1
 
-    invoke-static {p1}, Lkotlin/d1;->b(Ljava/lang/Object;)Ljava/lang/Object;
+    const/4 v5, 0x4
 
-    move-result-object p1
+    const/4 v4, 0x7
 
-    :goto_0
+    const/4 v5, 0x4
+
+    return v1
+
+    :cond_1
+    const/4 v5, 0x7
+
     const/4 v4, 0x6
 
-    const/4 v3, 0x3
+    const/4 v5, 0x1
+
+    const-class v2, Landroidx/appcompat/widget/c$b;
+
+    const-class v2, Landroidx/appcompat/widget/c$b;
+
+    const/4 v5, 0x0
+
+    const-class v2, Landroidx/appcompat/widget/c$b;
+
+    const-class v2, Landroidx/appcompat/widget/c$b;
+
+    const/4 v5, 0x0
 
     const/4 v4, 0x2
 
-    invoke-interface {v0, p1}, Lkotlin/coroutines/d;->resumeWith(Ljava/lang/Object;)V
+    const/4 v5, 0x3
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v3
+
+    const/4 v5, 0x3
+
+    const/4 v4, 0x5
+
+    const/4 v5, 0x1
+
+    if-eq v2, v3, :cond_2
+
+    const/4 v5, 0x3
 
     const/4 v4, 0x4
 
-    const/4 v3, 0x5
+    const/4 v5, 0x3
+
+    return v1
+
+    :cond_2
+    const/4 v5, 0x2
 
     const/4 v4, 0x6
 
-    return-void
+    const/4 v5, 0x5
+
+    check-cast p1, Landroidx/appcompat/widget/c$b;
+
+    const/4 v5, 0x7
+
+    const/4 v4, 0x3
+
+    const/4 v5, 0x7
+
+    iget v2, p0, Landroidx/appcompat/widget/c$b;->b:F
+
+    const/4 v5, 0x1
+
+    invoke-static {v2}, Ljava/lang/Float;->floatToIntBits(F)I
+
+    move-result v2
+
+    const/4 v5, 0x6
+
+    const/4 v4, 0x4
+
+    const/4 v5, 0x7
+
+    iget p1, p1, Landroidx/appcompat/widget/c$b;->b:F
+
+    const/4 v5, 0x3
+
+    const/4 v4, 0x7
+
+    const/4 v5, 0x6
+
+    invoke-static {p1}, Ljava/lang/Float;->floatToIntBits(F)I
+
+    move-result p1
+
+    const/4 v5, 0x6
+
+    const/4 v4, 0x3
+
+    const/4 v5, 0x4
+
+    if-eq v2, p1, :cond_3
+
+    const/4 v5, 0x2
+
+    const/4 v4, 0x2
+
+    const/4 v5, 0x1
+
+    return v1
+
+    :cond_3
+    const/4 v5, 0x7
+
+    const/4 v4, 0x4
+
+    const/4 v5, 0x7
+
+    return v0
+.end method
+
+.method public hashCode()I
+    .locals 3
+
+    const/4 v2, 0x0
+
+    const/4 v1, 0x1
+
+    const/4 v2, 0x5
+
+    iget v0, p0, Landroidx/appcompat/widget/c$b;->b:F
+
+    const/4 v2, 0x1
+
+    invoke-static {v0}, Ljava/lang/Float;->floatToIntBits(F)I
+
+    move-result v0
+
+    const/4 v2, 0x6
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x4
+
+    add-int/lit8 v0, v0, 0x1f
+
+    const/4 v2, 0x0
+
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 6
+
+    const/4 v5, 0x2
+
+    const/4 v4, 0x2
+
+    const/4 v5, 0x1
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const/4 v4, 0x7
+
+    and-int/2addr v5, v4
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const/4 v4, 0x6
+
+    and-int/2addr v5, v4
+
+    const-string v1, "["
+
+    const-string v1, "["
+
+    const/4 v5, 0x3
+
+    const-string v1, "["
+
+    const-string v1, "["
+
+    const/4 v5, 0x0
+
+    const/4 v4, 0x7
+
+    const/4 v5, 0x7
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const/4 v5, 0x2
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x1
+
+    const-string/jumbo v1, "rns:fvoeeols"
+
+    const/4 v5, 0x3
+
+    const-string v1, "efrmeos:Inol"
+
+    const-string/jumbo v1, "resolveInfo:"
+
+    const/4 v5, 0x3
+
+    const/4 v4, 0x4
+
+    const/4 v5, 0x0
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const/4 v5, 0x0
+
+    const/4 v4, 0x3
+
+    const/4 v5, 0x2
+
+    iget-object v1, p0, Landroidx/appcompat/widget/c$b;->a:Landroid/content/pm/ResolveInfo;
+
+    const/4 v5, 0x1
+
+    const/4 v4, 0x5
+
+    const/4 v5, 0x2
+
+    invoke-virtual {v1}, Landroid/content/pm/ResolveInfo;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v5, 0x2
+
+    const/4 v4, 0x5
+
+    const/4 v5, 0x1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const/4 v5, 0x3
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x7
+
+    const-string v1, "hmi:o;t e"
+
+    const-string v1, "h;tm gei:"
+
+    const/4 v5, 0x4
+
+    const-string/jumbo v1, "t;hgeb: w"
+
+    const-string v1, "; weight:"
+
+    const/4 v4, 0x2
+
+    const/4 v5, 0x5
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const/4 v5, 0x0
+
+    const/4 v4, 0x4
+
+    const/4 v5, 0x6
+
+    new-instance v1, Ljava/math/BigDecimal;
+
+    const/4 v5, 0x7
+
+    const/4 v4, 0x3
+
+    const/4 v5, 0x7
+
+    iget v2, p0, Landroidx/appcompat/widget/c$b;->b:F
+
+    const/4 v5, 0x6
+
+    const/4 v4, 0x4
+
+    const/4 v5, 0x3
+
+    float-to-double v2, v2
+
+    const/4 v5, 0x2
+
+    const/4 v4, 0x6
+
+    const/4 v5, 0x0
+
+    invoke-direct {v1, v2, v3}, Ljava/math/BigDecimal;-><init>(D)V
+
+    const/4 v5, 0x6
+
+    const/4 v4, 0x5
+
+    const/4 v5, 0x0
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const/4 v5, 0x5
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x3
+
+    const-string v1, "]"
+
+    const-string v1, "]"
+
+    const/4 v5, 0x1
+
+    const-string v1, "]"
+
+    const-string v1, "]"
+
+    const/4 v5, 0x6
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const/4 v5, 0x5
+
+    const/4 v4, 0x2
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v5, 0x4
+
+    const/4 v4, 0x1
+
+    const/4 v5, 0x6
+
+    return-object v0
 .end method

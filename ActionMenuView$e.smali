@@ -1,18 +1,18 @@
-.class public interface abstract Landroidx/appcompat/widget/c$a;
+.class public interface abstract Landroidx/appcompat/widget/ActionMenuView$e;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Landroidx/appcompat/widget/c;
+    value = Landroidx/appcompat/widget/ActionMenuView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x609
-    name = "a"
+    name = "e"
 .end annotation
 
 
 # virtual methods
-.method public abstract setActivityChooserModel(Landroidx/appcompat/widget/c;)V
+.method public abstract onMenuItemClick(Landroid/view/MenuItem;)Z
 .end method

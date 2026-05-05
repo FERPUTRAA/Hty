@@ -1,4 +1,4 @@
-.class public interface abstract Landroidx/appcompat/widget/c$a;
+.class public interface abstract Landroidx/appcompat/widget/c$f;
 .super Ljava/lang/Object;
 
 
@@ -9,10 +9,10 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x609
-    name = "a"
+    name = "f"
 .end annotation
 
 
 # virtual methods
-.method public abstract setActivityChooserModel(Landroidx/appcompat/widget/c;)V
+.method public abstract a(Landroidx/appcompat/widget/c;Landroid/content/Intent;)Z
 .end method

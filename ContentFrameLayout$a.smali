@@ -1,10 +1,10 @@
-.class public interface abstract Landroidx/appcompat/widget/c$a;
+.class public interface abstract Landroidx/appcompat/widget/ContentFrameLayout$a;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Landroidx/appcompat/widget/c;
+    value = Landroidx/appcompat/widget/ContentFrameLayout;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -14,5 +14,8 @@
 
 
 # virtual methods
-.method public abstract setActivityChooserModel(Landroidx/appcompat/widget/c;)V
+.method public abstract a()V
+.end method
+
+.method public abstract onDetachedFromWindow()V
 .end method
