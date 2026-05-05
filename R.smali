@@ -1,11 +1,23 @@
-.class public final Landroidx/activity/R;
+.class public final Landroidx/appcompat/R;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Landroidx/activity/R$id;
+        Landroidx/appcompat/R$anim;,
+        Landroidx/appcompat/R$attr;,
+        Landroidx/appcompat/R$bool;,
+        Landroidx/appcompat/R$color;,
+        Landroidx/appcompat/R$dimen;,
+        Landroidx/appcompat/R$drawable;,
+        Landroidx/appcompat/R$id;,
+        Landroidx/appcompat/R$integer;,
+        Landroidx/appcompat/R$interpolator;,
+        Landroidx/appcompat/R$layout;,
+        Landroidx/appcompat/R$string;,
+        Landroidx/appcompat/R$style;,
+        Landroidx/appcompat/R$styleable;
     }
 .end annotation
 
@@ -16,15 +28,13 @@
 
     const/4 v1, 0x1
 
-    const/4 v0, 0x4
+    const/4 v0, 0x2
+
+    const/4 v1, 0x0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const/4 v1, 0x6
-
-    const/4 v0, 0x6
-
-    const/4 v1, 0x5
+    const/4 v1, 0x7
 
     return-void
 .end method
